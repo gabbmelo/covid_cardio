@@ -1,0 +1,5 @@
+;elder_pop_lvl_pk;elder_pop_level_natural_id;elder_pop_lvl_desc
+0;1;LOEPL;low elder population level
+153;3;AAEPL;above average elder population level
+247;2;BAEPL;bellow average elder population level
+738;4;HIEPL;high elder population level

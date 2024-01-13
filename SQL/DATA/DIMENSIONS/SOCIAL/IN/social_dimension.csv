@@ -1,0 +1,5 @@
+;hosp_level_pk;hosp_level_natural_id;hosp_level_desc
+0;1;FPTH;few hospital beds per thousand inhabitants
+153;3;AAPT;above average per thousand inhabitants
+247;2;BAPT;bellow average per thousand inhabitants
+488;4;MPTH;many hospital beds per thousand inhabitants

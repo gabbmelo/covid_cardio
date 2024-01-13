@@ -4,3 +4,9 @@ C:\Users\Gabriel\Documents\Repositories\Covid_cardio\SQL\Version002\Datawarehous
 C:\Users\Gabriel\Documents\Repositories\Covid_cardio\SQL\Version002\DatawarehouseCovid\CriacaoDataLake\obj\Debug\CriacaoDataLake.sqlproj.AssemblyReference.cache
 C:\Users\Gabriel\Documents\Repositories\Covid_cardio\SQL\Version002\DatawarehouseCovid\CriacaoDataLake\obj\Debug\CriacaoDataLake.dll
 C:\Users\Gabriel\Documents\Repositories\Covid_cardio\SQL\Version002\DatawarehouseCovid\CriacaoDataLake\obj\Debug\CriacaoDataLake.pdb
+C:\Users\Gabriel\Documents\Repositories\Self_owned\Covid_cardio\SQL\PROJECTS\Version003\DatawarehouseCovid\CriacaoDataLake\bin\Debug\CriacaoDataLake.dacpac
+C:\Users\Gabriel\Documents\Repositories\Self_owned\Covid_cardio\SQL\PROJECTS\Version003\DatawarehouseCovid\CriacaoDataLake\bin\Debug\CriacaoDataLake.dll
+C:\Users\Gabriel\Documents\Repositories\Self_owned\Covid_cardio\SQL\PROJECTS\Version003\DatawarehouseCovid\CriacaoDataLake\bin\Debug\CriacaoDataLake.pdb
+C:\Users\Gabriel\Documents\Repositories\Self_owned\Covid_cardio\SQL\PROJECTS\Version003\DatawarehouseCovid\CriacaoDataLake\obj\Debug\CriacaoDataLake.sqlproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Repositories\Self_owned\Covid_cardio\SQL\PROJECTS\Version003\DatawarehouseCovid\CriacaoDataLake\obj\Debug\CriacaoDataLake.dll
+C:\Users\Gabriel\Documents\Repositories\Self_owned\Covid_cardio\SQL\PROJECTS\Version003\DatawarehouseCovid\CriacaoDataLake\obj\Debug\CriacaoDataLake.pdb

@@ -26,84 +26,84 @@ MPTH = many hospital beds per thousand inhabitants</remarks>
     <column id="COL4" populated="true" UUID="4160674f-b980-4745-954b-9882aa4a28fc" autoIncrement="false" autoIncrementSequenceName="sociam_dim_hosp_bed_level_desc_seq" defaultValue="" name="‰ HOSPITAL BEDS LEVEL DESCRIPTOR" nullable="0" physicalName="hosp_bed_level_desc" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL5" populated="true" UUID="8724ea35-bc17-4352-b3c2-274736608400" autoIncrement="false" autoIncrementSequenceName="sociam_dim_atr_hosp_beds_seq" defaultValue="" name="ATRIBUTE ‰ HOSP BEDS" nullable="0" physicalName="atr_hosp_beds" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
-     <remarks></remarks>
-    </column>
-    <column id="COL6" populated="true" UUID="7be0e73c-3ec5-4616-bc3f-e040d29a17df" autoIncrement="false" autoIncrementSequenceName="sociam_dim_atr_65_plus_seq" defaultValue="" name="ATRIBUTE % 65+" nullable="0" physicalName="atr_65_plus" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
-     <remarks></remarks>
-    </column>
     </folder>
     <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
     <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX7" populated="true" UUID="0e8a0d8e-35e1-416b-b25a-b8bb0d2ff6dd" clustered="false" name="social_dim_pk" physicalName="social_dim_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC8" populated="true" UUID="11382a5d-9746-45cb-9e26-02f1e041ab92" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="PRIMARY ID SOCIAL DIMENSION" physicalName="social_hosp_bed_level_id" />
+    <index id="IDX5" populated="true" UUID="0e8a0d8e-35e1-416b-b25a-b8bb0d2ff6dd" clustered="false" name="social_dim_pk" physicalName="social_dim_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC6" populated="true" UUID="11382a5d-9746-45cb-9e26-02f1e041ab92" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="PRIMARY ID SOCIAL DIMENSION" physicalName="social_hosp_bed_level_id" />
     </index>
    </folder>
   </table>
-  <table id="TAB9" populated="true" UUID="45806855-92d7-47d0-9600-05163220aab8" name="ECONOMIC_DIMENSION" objectType="TABLE" physicalName="economic_dim" >
+  <table id="TAB7" populated="true" UUID="45806855-92d7-47d0-9600-05163220aab8" name="ECONOMIC_DIMENSION" objectType="TABLE" physicalName="economic_dim" >
    <remarks></remarks>
-   <folder id="FOLTAB91" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL10" populated="true" UUID="37b8ea72-a41f-4c9f-81ce-41f9824b0b1a" autoIncrement="false" autoIncrementSequenceName="economic_dim_economic_gdp_per_capita_level_id_seq" defaultValue="" name="PRIMARY ID ECONOMIC DIMENSION" nullable="0" physicalName="economic_gdp_per_capita_level_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+   <folder id="FOLTAB71" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL8" populated="true" UUID="37b8ea72-a41f-4c9f-81ce-41f9824b0b1a" autoIncrement="false" autoIncrementSequenceName="economic_dim_economic_gdp_per_capita_level_id_seq" defaultValue="" name="PRIMARY ID ECONOMIC DIMENSION" nullable="0" physicalName="economic_gdp_per_capita_level_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL11" populated="true" UUID="b477dec4-cc0b-4ddf-ad13-09112491bce1" autoIncrement="false" autoIncrementSequenceName="economic_dim_gdp_level_code_seq" defaultValue="" name="GDP LEVELS NATURAL ID" nullable="0" physicalName="gdp_level_code" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL9" populated="true" UUID="b477dec4-cc0b-4ddf-ad13-09112491bce1" autoIncrement="false" autoIncrementSequenceName="economic_dim_gdp_level_code_seq" defaultValue="" name="GDP LEVELS NATURAL ID" nullable="0" physicalName="gdp_level_code" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL12" populated="true" UUID="8a249857-1aae-4089-9501-1fcce4c0d625" autoIncrement="false" autoIncrementSequenceName="economic_dim_gdp_level_desc_seq" defaultValue="" name="GDP LEVEL DESCRIPTOR" nullable="0" physicalName="gdp_level_desc" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
-     <remarks></remarks>
-    </column>
-    <column id="COL13" populated="true" UUID="1e540145-7a85-42da-9108-3ae74499d584" autoIncrement="false" autoIncrementSequenceName="economic_dim_gdp_per_capita_seq" defaultValue="" name="ATRIBUTE GDP PER CAPITA" nullable="0" physicalName="gdp_per_capita" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
-     <remarks></remarks>
-    </column>
-    <column id="COL14" populated="true" UUID="73a65243-8c63-4b21-a93c-7bb37070b6e9" autoIncrement="false" autoIncrementSequenceName="economic_dim_atr_population_seq" defaultValue="" name="ATRIBUTE POPULATION" nullable="0" physicalName="atr_population" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL10" populated="true" UUID="8a249857-1aae-4089-9501-1fcce4c0d625" autoIncrement="false" autoIncrementSequenceName="economic_dim_gdp_level_desc_seq" defaultValue="" name="GDP LEVEL DESCRIPTOR" nullable="0" physicalName="gdp_level_desc" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
-    <folder id="FOLTAB93" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    <folder id="FOLTAB73" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
-    <folder id="FOLTAB92" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    <folder id="FOLTAB72" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
-    <folder id="FOLTAB94" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX15" populated="true" UUID="50539788-4319-45c3-be51-2bae43e1d5f8" clustered="false" name="economic_dim_pk" physicalName="economic_dim_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC16" populated="true" UUID="0f80eb60-1eff-4f4b-8dbd-ce1ca4ca100b" ascendingOrDescending="UNSPECIFIED" column-ref="COL10" name="PRIMARY ID ECONOMIC DIMENSION" physicalName="economic_gdp_per_capita_level_id" />
+    <folder id="FOLTAB74" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX11" populated="true" UUID="50539788-4319-45c3-be51-2bae43e1d5f8" clustered="false" name="economic_dim_pk" physicalName="economic_dim_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC12" populated="true" UUID="0f80eb60-1eff-4f4b-8dbd-ce1ca4ca100b" ascendingOrDescending="UNSPECIFIED" column-ref="COL8" name="PRIMARY ID ECONOMIC DIMENSION" physicalName="economic_gdp_per_capita_level_id" />
     </index>
    </folder>
   </table>
-  <table id="TAB17" populated="true" UUID="7a7d4fb6-697b-4a24-bdce-520aae3c1f9e" name="GEOGRAPHIC DIMENSION" objectType="TABLE" physicalName="geo_dim" >
+  <table id="TAB13" populated="true" UUID="7a7d4fb6-697b-4a24-bdce-520aae3c1f9e" name="GEOGRAPHIC DIMENSION" objectType="TABLE" physicalName="geo_dim" >
    <remarks></remarks>
-   <folder id="FOLTAB171" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL18" populated="true" UUID="62fdc7a5-0211-4938-be08-063033b158e9" autoIncrement="false" autoIncrementSequenceName="geo_dim_geo_country_id_seq" defaultValue="" name="PRIMARY ID GEOGRAPHIC DIMENSION" nullable="0" physicalName="geo_country_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+   <folder id="FOLTAB131" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL14" populated="true" UUID="62fdc7a5-0211-4938-be08-063033b158e9" autoIncrement="false" autoIncrementSequenceName="geo_dim_geo_country_id_seq" defaultValue="" name="PRIMARY ID GEOGRAPHIC DIMENSION" nullable="0" physicalName="geo_country_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>country_code in df</remarks>
     </column>
-    <column id="COL19" populated="true" UUID="33ead709-baa2-4567-943e-f392ec20734b" autoIncrement="false" autoIncrementSequenceName="geo_dim_sub_region_code_seq" defaultValue="" name="SUB REGION NATURAL ID" nullable="0" physicalName="sub_region_code" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL15" populated="true" UUID="846c86fb-12f5-4900-9819-051f588b5668" autoIncrement="false" autoIncrementSequenceName="geo_dim_continent_code_seq" defaultValue="" name="CONTINENT NATURAL ID" nullable="0" physicalName="continent_code" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL20" populated="true" UUID="846c86fb-12f5-4900-9819-051f588b5668" autoIncrement="false" autoIncrementSequenceName="geo_dim_continent_code_seq" defaultValue="" name="CONTINENT NATURAL ID" nullable="0" physicalName="continent_code" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL16" populated="true" UUID="c6c15e23-79be-4f13-88b3-5aecdfceeeae" autoIncrement="false" autoIncrementSequenceName="geo_dim_continent_desc_seq" defaultValue="" name="CONTINENT DESCRIPTOR" nullable="0" physicalName="continent_desc" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL21" populated="true" UUID="1d9e1edd-8f31-4b62-ac5b-f91ca9405357" autoIncrement="false" autoIncrementSequenceName="geo_dim_country_code_seq" defaultValue="" name="COUNTRY NATURAL ID" nullable="0" physicalName="country_code" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL17" populated="true" UUID="33ead709-baa2-4567-943e-f392ec20734b" autoIncrement="false" autoIncrementSequenceName="geo_dim_sub_region_code_seq" defaultValue="" name="SUB REGION NATURAL ID" nullable="0" physicalName="sub_region_code" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="2991e1da-24d9-471b-b52a-6ae90763c9a9" autoIncrement="false" autoIncrementSequenceName="geo_dim_sub_region_desc_seq" defaultValue="" name="SUB REGION DESCRIPTOR" nullable="0" physicalName="sub_region_desc" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="1d9e1edd-8f31-4b62-ac5b-f91ca9405357" autoIncrement="false" autoIncrementSequenceName="geo_dim_country_code_seq" defaultValue="" name="COUNTRY NATURAL ID" nullable="0" physicalName="country_code" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Country code_3</remarks>
     </column>
-    <column id="COL22" populated="true" UUID="e2fa53d4-f491-41e1-b6b8-5887cefeb8d3" autoIncrement="false" autoIncrementSequenceName="geo_dim_country_desc_seq" defaultValue="" name="COUNTRY DESCRIPTOR" nullable="0" physicalName="country_desc" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL20" populated="true" UUID="e2fa53d4-f491-41e1-b6b8-5887cefeb8d3" autoIncrement="false" autoIncrementSequenceName="geo_dim_country_desc_seq" defaultValue="" name="COUNTRY DESCRIPTOR" nullable="0" physicalName="country_desc" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL23" populated="true" UUID="2991e1da-24d9-471b-b52a-6ae90763c9a9" autoIncrement="false" autoIncrementSequenceName="geo_dim_sub_region_desc_seq" defaultValue="" name="SUB REGION DESCRIPTOR" nullable="0" physicalName="sub_region_desc" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL21" populated="true" UUID="1e540145-7a85-42da-9108-3ae74499d584" autoIncrement="false" autoIncrementSequenceName="economic_dim_gdp_per_capita_seq" defaultValue="" name="ATRIBUTE GDP PER CAPITA" nullable="0" physicalName="gdp_per_capita" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
      <remarks></remarks>
     </column>
-    <column id="COL24" populated="true" UUID="c6c15e23-79be-4f13-88b3-5aecdfceeeae" autoIncrement="false" autoIncrementSequenceName="geo_dim_continent_desc_seq" defaultValue="" name="CONTINENT DESCRIPTOR" nullable="0" physicalName="continent_desc" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL22" populated="true" UUID="7be0e73c-3ec5-4616-bc3f-e040d29a17df" autoIncrement="false" autoIncrementSequenceName="sociam_dim_atr_65_plus_seq" defaultValue="" name="ATRIBUTE % 65+" nullable="0" physicalName="atr_65_plus" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
+     <remarks></remarks>
+    </column>
+    <column id="COL23" populated="true" UUID="8724ea35-bc17-4352-b3c2-274736608400" autoIncrement="false" autoIncrementSequenceName="sociam_dim_atr_hosp_beds_seq" defaultValue="" name="ATRIBUTE ‰ HOSP BEDS" nullable="0" physicalName="atr_hosp_beds" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
+     <remarks></remarks>
+    </column>
+    <column id="COL24" populated="true" UUID="73a65243-8c63-4b21-a93c-7bb37070b6e9" autoIncrement="false" autoIncrementSequenceName="economic_dim_atr_population_seq" defaultValue="" name="ATRIBUTE POPULATION" nullable="0" physicalName="atr_population" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
-    <folder id="FOLTAB173" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    <folder id="FOLTAB133" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
-    <folder id="FOLTAB172" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    <folder id="FOLTAB132" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
-    <folder id="FOLTAB174" populated="true" name="Indices" physicalName="Indices" type="4">
+    <folder id="FOLTAB134" populated="true" name="Indices" physicalName="Indices" type="4">
     <index id="IDX25" populated="true" UUID="41457310-59e1-42e6-9993-e3f899a0409d" clustered="false" name="geo_dim_pk" physicalName="geo_dim_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC26" populated="true" UUID="85421fc3-1a78-4278-88e6-45414dbc971a" ascendingOrDescending="UNSPECIFIED" column-ref="COL18" name="PRIMARY ID GEOGRAPHIC DIMENSION" physicalName="geo_country_id" />
+     <index-column id="IDC26" populated="true" UUID="85421fc3-1a78-4278-88e6-45414dbc971a" ascendingOrDescending="UNSPECIFIED" column-ref="COL14" name="PRIMARY ID GEOGRAPHIC DIMENSION" physicalName="geo_country_id" />
     </index>
    </folder>
   </table>
@@ -160,25 +160,25 @@ MPTH = many hospital beds per thousand inhabitants</remarks>
   <table id="TAB42" populated="true" UUID="acf05491-0d22-4a19-b3a8-0026b5454a52" name="FACT CASES DEATHS" objectType="TABLE" physicalName="fact_cases_deaths" >
    <remarks></remarks>
    <folder id="FOLTAB421" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL43" populated="true" UUID="e3384144-aaca-452a-bc85-0489040ca08e" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_social_hosp_bed_level_id_seq" defaultValue="" name="PRIMARY ID SOCIAL DIMENSION" nullable="0" physicalName="social_hosp_bed_level_id" precision="0" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL43" populated="true" UUID="2fd0ad18-9a58-41ea-8e73-6019a36954c2" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_economic_gdp_per_capita_level_id_seq" defaultValue="" name="PRIMARY ID ECONOMIC DIMENSION" nullable="0" physicalName="economic_gdp_per_capita_level_id" precision="0" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL44" populated="true" UUID="2fd0ad18-9a58-41ea-8e73-6019a36954c2" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_economic_gdp_per_capita_level_id_seq" defaultValue="" name="PRIMARY ID ECONOMIC DIMENSION" nullable="0" physicalName="economic_gdp_per_capita_level_id" precision="0" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL44" populated="true" UUID="fff01c9a-6923-4c13-b985-764b945785b2" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_geo_dim_pk_seq" defaultValue="" name="PRIMARY ID GEOGRAPHIC DIMENSION" nullable="0" physicalName="geo_dim_pk" precision="0" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL45" populated="true" UUID="fff01c9a-6923-4c13-b985-764b945785b2" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_geo_dim_pk_seq" defaultValue="" name="PRIMARY ID GEOGRAPHIC DIMENSION" nullable="0" physicalName="geo_dim_pk" precision="0" primaryKeySeq="2" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL45" populated="true" UUID="a56c0f41-ca87-4371-aefd-13e8d431688d" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_time_date_id_seq" defaultValue="" name="PRIMARY ID TIME DIMENSION" nullable="0" physicalName="time_date_id" precision="0" primaryKeySeq="2" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL46" populated="true" UUID="a56c0f41-ca87-4371-aefd-13e8d431688d" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_time_date_id_seq" defaultValue="" name="PRIMARY ID TIME DIMENSION" nullable="0" physicalName="time_date_id" precision="0" primaryKeySeq="3" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL46" populated="true" UUID="e3384144-aaca-452a-bc85-0489040ca08e" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_social_hosp_bed_level_id_seq" defaultValue="" name="PRIMARY ID SOCIAL DIMENSION" nullable="0" physicalName="social_hosp_bed_level_id" precision="0" primaryKeySeq="3" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL47" populated="true" UUID="4b185d6f-1fbc-4492-994a-e13197a74e45" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_new_cases_seq" defaultValue="" name="NEW CASES" nullable="0" physicalName="new_cases" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL47" populated="true" UUID="ce4b1bdb-f8aa-4ff8-8e09-87b89edcd9f1" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_elder_population_level_id_seq" defaultValue="" name="PRIMARY ID ELDERLY POPULATION DIMENSION" nullable="0" physicalName="elder_population_level_id" precision="0" primaryKeySeq="4" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL48" populated="true" UUID="da6fde27-075d-4aaa-b234-979531936e27" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_new_deaths_seq" defaultValue="" name="NEW DEATHS" nullable="0" physicalName="new_deaths" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL48" populated="true" UUID="4b185d6f-1fbc-4492-994a-e13197a74e45" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_new_cases_seq" defaultValue="" name="NEW CASES" nullable="0" physicalName="new_cases" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL49" populated="true" UUID="3d66c87a-c73f-4898-b17b-ca5d5b6adce9" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_total_population_seq" defaultValue="" name="TOTAL POPULATION" nullable="0" physicalName="total_population" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL49" populated="true" UUID="da6fde27-075d-4aaa-b234-979531936e27" autoIncrement="false" autoIncrementSequenceName="fact_cases_deaths_new_deaths_seq" defaultValue="" name="NEW DEATHS" nullable="0" physicalName="new_deaths" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -188,41 +188,74 @@ MPTH = many hospital beds per thousand inhabitants</remarks>
     </folder>
     <folder id="FOLTAB424" populated="true" name="Indices" physicalName="Indices" type="4">
     <index id="IDX50" populated="true" UUID="a060ad5f-a2c1-4d13-91f1-f34ee5ed7659" clustered="false" name="fact_cases_deaths_pk" physicalName="fact_cases_deaths_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC51" populated="true" UUID="e3eabd5e-f6a9-4a47-bd6e-15f54672ea48" ascendingOrDescending="UNSPECIFIED" column-ref="COL43" name="PRIMARY ID SOCIAL DIMENSION" physicalName="social_hosp_bed_level_id" />
-     <index-column id="IDC52" populated="true" UUID="82bd7978-8f1e-4721-942e-cd60585a37c6" ascendingOrDescending="UNSPECIFIED" column-ref="COL44" name="PRIMARY ID ECONOMIC DIMENSION" physicalName="economic_gdp_per_capita_level_id" />
-     <index-column id="IDC53" populated="true" UUID="21a81f99-2e16-4203-99a3-ae6dc7ae16da" ascendingOrDescending="UNSPECIFIED" column-ref="COL45" name="PRIMARY ID GEOGRAPHIC DIMENSION" physicalName="geo_dim_pk" />
-     <index-column id="IDC54" populated="true" UUID="12dbcf7a-2272-4089-af0f-43690773fe86" ascendingOrDescending="UNSPECIFIED" column-ref="COL46" name="PRIMARY ID TIME DIMENSION" physicalName="time_date_id" />
+     <index-column id="IDC51" populated="true" UUID="65bead81-613e-40a3-b6f2-34565340ddac" ascendingOrDescending="UNSPECIFIED" column-ref="COL43" name="PRIMARY ID ECONOMIC DIMENSION" physicalName="economic_gdp_per_capita_level_id" />
+     <index-column id="IDC52" populated="true" UUID="d9226856-601e-44c1-8063-8df8c124be3a" ascendingOrDescending="UNSPECIFIED" column-ref="COL44" name="PRIMARY ID GEOGRAPHIC DIMENSION" physicalName="geo_dim_pk" />
+     <index-column id="IDC53" populated="true" UUID="035fc85f-a28e-4030-bceb-e7e1ae6fbfac" ascendingOrDescending="UNSPECIFIED" column-ref="COL45" name="PRIMARY ID TIME DIMENSION" physicalName="time_date_id" />
+     <index-column id="IDC54" populated="true" UUID="f98401e7-c4e7-4af6-ac56-309d841825bf" ascendingOrDescending="UNSPECIFIED" column-ref="COL46" name="PRIMARY ID SOCIAL DIMENSION" physicalName="social_hosp_bed_level_id" />
+     <index-column id="IDC55" populated="true" UUID="458b7761-4d75-4f6d-a91a-2d4d7746a5a5" ascendingOrDescending="UNSPECIFIED" column-ref="COL47" name="PRIMARY ID ELDERLY POPULATION DIMENSION" physicalName="elder_population_level_id" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB56" populated="true" UUID="978c95f1-5c41-4701-9a2c-472b8f1154e5" name="ELDERLY POPULATION DIMENSION" objectType="TABLE" physicalName="elder_pop_dim" >
+   <remarks>pk = elder population level</remarks>
+   <folder id="FOLTAB561" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL57" populated="true" UUID="89ec130e-dc57-4ecf-9f10-6850ec243022" autoIncrement="false" autoIncrementSequenceName="elder_pop_dim_elder_population_level_id_seq" defaultValue="" name="PRIMARY ID ELDERLY POPULATION DIMENSION" nullable="0" physicalName="elder_population_level_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>1 - lowest elderly population level
+4 - highest elderly population level</remarks>
+    </column>
+    <column id="COL58" populated="true" UUID="3295985b-c7a2-4aa1-819c-f06708629a6f" autoIncrement="false" autoIncrementSequenceName="elder_pop_dim_elder_pop_level_code_seq" defaultValue="" name="ELDER POPULATION NATURAL ID" nullable="0" physicalName="elder_pop_level_code" precision="5" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>LOEPL = low elderly pop. level
+BAEPL = bellow average elderly pop. level
+AAEPL = above average elderly pop. level
+HIEPL = high elderly pop. level</remarks>
+    </column>
+    <column id="COL59" populated="true" UUID="ba7b6f2e-22da-4477-821d-f10231410b65" autoIncrement="false" autoIncrementSequenceName="elder_pop_dim_elder_pop_level_desc_seq" defaultValue="" name="ELDER POPULATION LEVEL DESCRIPTOR" nullable="0" physicalName="elder_pop_level_desc" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB563" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB562" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB564" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX60" populated="true" UUID="f567e1be-5f9e-472d-a7eb-c1bcc1c92117" clustered="false" name="elder_pop_dim_pk" physicalName="elder_pop_dim_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC61" populated="true" UUID="d2b6f1d7-0420-4b97-809f-b12bfdd2dd8e" ascendingOrDescending="UNSPECIFIED" column-ref="COL57" name="PRIMARY ID ELDERLY POPULATION DIMENSION" physicalName="elder_population_level_id" />
     </index>
    </folder>
   </table>
   <relationships>
-   <relationship id="REL55" populated="true" UUID="32b326b0-c0cc-44ca-8209-150860490e5a" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="sociam_dim_fact_cases_deaths_fk" physicalName="sociam_dim_fact_cases_deaths_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP56" populated="true" UUID="830ea91d-7184-4c1a-b81f-a34dc74ea97e" fk-column-ref="COL43" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL62" populated="true" UUID="32b326b0-c0cc-44ca-8209-150860490e5a" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="sociam_dim_fact_cases_deaths_fk" physicalName="sociam_dim_fact_cases_deaths_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP63" populated="true" UUID="0fcba4d9-f707-4933-9428-f8ce37ac4e86" fk-column-ref="COL46" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL57" populated="true" UUID="73379565-161e-4d0e-bbd0-304679b31a65" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="economic_dim_fact_cases_deaths_fk" physicalName="economic_dim_fact_cases_deaths_fk" pk-table-ref="TAB9" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP58" populated="true" UUID="28b12be3-1b14-4120-885a-476a087e6e47" fk-column-ref="COL44" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL10" />
+   <relationship id="REL64" populated="true" UUID="73379565-161e-4d0e-bbd0-304679b31a65" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="economic_dim_fact_cases_deaths_fk" physicalName="economic_dim_fact_cases_deaths_fk" pk-table-ref="TAB7" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP65" populated="true" UUID="df8d5f0a-cd0f-461d-9b39-d0dc8b2e4969" fk-column-ref="COL43" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL8" />
    </relationship>
-   <relationship id="REL59" populated="true" UUID="ae656981-5ff1-48ca-b6f0-b46c6cb94468" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="geo_dim_fact_cases_deaths_fk" physicalName="geo_dim_fact_cases_deaths_fk" pk-table-ref="TAB17" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP60" populated="true" UUID="0aa8632b-d1c8-4fde-b40f-1f1a1512c527" fk-column-ref="COL45" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL18" />
+   <relationship id="REL66" populated="true" UUID="ae656981-5ff1-48ca-b6f0-b46c6cb94468" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="geo_dim_fact_cases_deaths_fk" physicalName="geo_dim_fact_cases_deaths_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP67" populated="true" UUID="e2a45706-a55f-4181-839e-809d39d87e50" fk-column-ref="COL44" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL14" />
    </relationship>
-   <relationship id="REL61" populated="true" UUID="b99a19f8-6359-4f45-b9ba-f318fb75a7ff" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="time_dim_fact_cases_deaths_fk" physicalName="time_dim_fact_cases_deaths_fk" pk-table-ref="TAB27" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP62" populated="true" UUID="618b380b-b566-4878-9c45-9edc057d311f" fk-column-ref="COL46" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL28" />
+   <relationship id="REL68" populated="true" UUID="b99a19f8-6359-4f45-b9ba-f318fb75a7ff" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="time_dim_fact_cases_deaths_fk" physicalName="time_dim_fact_cases_deaths_fk" pk-table-ref="TAB27" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP69" populated="true" UUID="c5f88367-ccfc-429a-a195-2b5e510b6605" fk-column-ref="COL45" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL28" />
+   </relationship>
+   <relationship id="REL70" populated="true" UUID="9afeea1d-66df-4670-b4b6-e5a9331a2bfa" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="false" name="elder_pop_dim_fact_cases_deaths_fk" physicalName="elder_pop_dim_fact_cases_deaths_fk" pk-table-ref="TAB56" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP71" populated="true" UUID="8ddea69e-9998-4e58-9ad8-91b966d065c3" fk-column-ref="COL47" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL57" />
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.SQLServer2005DDLGenerator" allow-connection="false"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="143" y="95" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB9" x="699" y="375" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB17" x="137" y="322" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB27" x="1029" y="87" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB42" x="577" y="113" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-link relationship-ref="REL55" pkConnection="0.6161616161616161" fkConnection="0.4015748031496063" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
-  <table-link relationship-ref="REL61" pkConnection="0.48223350253807107" fkConnection="0.5196850393700787" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
-  <table-link relationship-ref="REL59" pkConnection="0.9033232628398792" fkConnection="0.10089020771513353" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
-  <table-link relationship-ref="REL57" pkConnection="0.428125" fkConnection="0.5845697329376854" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-pane table-ref="TAB1" x="65" y="370" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB7" x="1246" y="526" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB13" x="674" y="680" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB27" x="1329" y="90" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB42" x="674" y="110" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB56" x="74" y="57" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL62" pkConnection="0.5949367088607594" fkConnection="0.4015748031496063" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL68" pkConnection="0.484304932735426" fkConnection="0.5104895104895105" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL66" pkConnection="0.9033232628398792" fkConnection="0.10089020771513353" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL64" pkConnection="0.428125" fkConnection="0.5845697329376854" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL70" pkConnection="0.8734177215189873" fkConnection="0.2727272727272727" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">

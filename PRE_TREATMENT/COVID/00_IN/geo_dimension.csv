@@ -1,0 +1,157 @@
+;country_code;code_3;location;sub_regions_id;sub_region;continent_id;continent;population;aged_65_older_percent;gdp_per_capita;hospital_beds_per_thousand
+0;4;AFG;Afghanistan;15;Southern Asia;2;Asia;38928341.0;2.581;1803.987;0.5
+153;8;ALB;Albania;16;Southern Europe;3;Europe;2877800.0;13.188;11803.431;2.89
+247;12;DZA;Algeria;9;Northern Africa;0;Africa;43851043.0;6.211;13913.839;1.9
+405;28;ATG;Antigua and Barbuda;1;Caribbean;1;Americas;97928.0;6.933;21490.943;3.8
+488;32;ARG;Argentina;12;South America;1;Americas;45195777.0;11.198;18933.907;5.0
+584;51;ARM;Armenia;18;Western Asia;2;Asia;2963234.0;11.232;8787.58;4.2
+738;36;AUS;Australia;0;Australia and New Zealand;4;Oceania;25499881.0;15.504;44648.71;3.84
+901;40;AUT;Austria;19;Western Europe;3;Europe;9006400.0;19.202;45436.686;7.37
+1064;31;AZE;Azerbaijan;18;Western Asia;2;Asia;10139175.0;6.018;15847.419;4.7
+1220;44;BHS;Bahamas;1;Caribbean;1;Americas;393248.0;8.996;27717.847;2.9
+1305;48;BHR;Bahrain;18;Western Asia;2;Asia;1701583.0;2.372;43290.705;2.0
+1467;50;BGD;Bangladesh;15;Southern Asia;2;Asia;164689383.0;5.098;3523.984;0.8
+1566;52;BRB;Barbados;1;Caribbean;1;Americas;287371.0;14.952;16978.068;5.8
+1651;112;BLR;Belarus;6;Eastern Europe;3;Europe;9449321.0;14.799;17167.967;11.0
+1814;56;BEL;Belgium;19;Western Europe;3;Europe;11589616.0;18.571;42658.576;5.64
+1977;84;BLZ;Belize;2;Central America;1;Americas;397621.0;3.853;7824.362;1.3
+2056;204;BEN;Benin;17;Western Africa;0;Africa;12123198.0;3.244;2064.236;0.5
+2142;64;BTN;Bhutan;15;Southern Asia;2;Asia;771612.0;4.885;8708.597;1.7
+2231;68;BOL;Bolivia;12;South America;1;Americas;11673029.0;6.704;6885.829;1.1
+2322;70;BIH;Bosnia and Herzegovina;16;Southern Europe;3;Europe;3280815.0;16.569;11713.895;3.5
+2412;72;BWA;Botswana;14;Southern Africa;0;Africa;2351625.0;3.941;15807.374;1.8
+2483;76;BRA;Brazil;12;South America;1;Americas;212559409.0;8.552;14103.452;2.2
+2646;96;BRN;Brunei;13;South-Eastern Asia;2;Asia;437483.0;4.591;71809.251;2.7
+2738;100;BGR;Bulgaria;6;Eastern Europe;3;Europe;6948445.0;20.801;18563.307;7.454
+2831;854;BFA;Burkina Faso;17;Western Africa;0;Africa;20903278.0;2.409;1703.102;0.4
+2921;108;BDI;Burundi;4;Eastern Africa;0;Africa;11890781.0;2.562;702.225;0.8
+2992;116;KHM;Cambodia;13;South-Eastern Asia;2;Asia;16718971.0;4.412;3645.07;0.8
+3146;120;CMR;Cameroon;8;Middle Africa;0;Africa;26545864.0;3.165;3364.926;1.3
+3236;124;CAN;Canada;10;Northern America;1;Americas;37742157.0;16.984;44017.591;2.5
+3399;132;CPV;Cape Verde;17;Western Africa;0;Africa;555988.0;4.46;6222.554;2.1
+3481;140;CAF;Central African Republic;8;Middle Africa;0;Africa;4829764.0;3.655;661.24;1.0
+3568;152;CHL;Chile;12;South America;1;Americas;19116209.0;11.087;22767.037;2.11
+3666;156;CHN;China;5;Eastern Asia;2;Asia;1439323774.0;10.641;15308.712;4.34
+3829;170;COL;Colombia;12;South America;1;Americas;50882884.0;7.646;13254.949;1.71
+3927;174;COM;Comoros;4;Eastern Africa;0;Africa;869595.0;2.963;1413.89;2.2
+3967;188;CRI;Costa Rica;2;Central America;1;Americas;5094114.0;9.468;15524.995;1.13
+4062;191;HRV;Croatia;16;Southern Europe;3;Europe;4105268.0;19.724;22669.797;5.54
+4225;196;CYP;Cyprus;18;Western Asia;2;Asia;875899.0;13.416;32415.132;3.4
+4316;203;CZE;Czech Republic;6;Eastern Europe;3;Europe;10708982.0;19.027;32605.906;6.63
+4479;208;DNK;Denmark;11;Northern Europe;3;Europe;5792203.0;19.677;46682.515;2.5
+4642;262;DJI;Djibouti;4;Eastern Africa;0;Africa;988002.0;4.213;2705.406;1.4
+4726;214;DOM;Dominican Republic;1;Caribbean;1;Americas;10847904.0;6.981;14600.861;1.6
+4880;218;ECU;Ecuador;12;South America;1;Americas;17643060.0;7.104;10581.936;1.5
+5038;818;EGY;Egypt;9;Northern Africa;0;Africa;102334403.0;5.159;10550.206;1.6
+5197;222;SLV;El Salvador;2;Central America;1;Americas;6486201.0;8.273;7292.458;1.3
+5281;226;GNQ;Equatorial Guinea;8;Middle Africa;0;Africa;1402985.0;2.846;22604.873;2.1
+5369;232;ERI;Eritrea;4;Eastern Africa;0;Africa;3546427.0;3.607;1510.459;0.7
+5450;233;EST;Estonia;11;Northern Europe;3;Europe;1326539.0;19.452;29481.252;4.69
+5613;231;ETH;Ethiopia;4;Eastern Africa;0;Africa;114963583.0;3.526;1729.927;0.3
+5702;242;FJI;Fiji;7;Melanesia;4;Oceania;896444.0;6.224;8702.975;2.3
+5785;246;FIN;Finland;11;Northern Europe;3;Europe;5540718.0;21.228;40585.721;3.28
+5948;250;FRA;France;19;Western Europe;3;Europe;65273512.0;19.718;38605.671;5.98
+6111;266;GAB;Gabon;8;Middle Africa;0;Africa;2225728.0;4.45;16562.413;6.3
+6200;270;GMB;Gambia;17;Western Africa;0;Africa;2416664.0;2.339;1561.767;1.1
+6285;268;GEO;Georgia;18;Western Asia;2;Asia;3989175.0;14.864;9745.079;2.6
+6445;276;DEU;Germany;19;Western Europe;3;Europe;83783945.0;21.453;45229.245;8.0
+6608;288;GHA;Ghana;17;Western Africa;0;Africa;31072945.0;3.385;4227.63;0.9
+6697;300;GRC;Greece;16;Southern Europe;3;Europe;10423056.0;20.396;24574.382;4.21
+6860;308;GRD;Grenada;1;Caribbean;1;Americas;112519.0;7.304;13593.877;3.7
+6940;320;GTM;Guatemala;2;Central America;1;Americas;17915567.0;4.694;7423.808;0.6
+7028;324;GIN;Guinea;17;Western Africa;0;Africa;13132792.0;3.135;1998.926;0.3
+7116;328;GUY;Guyana;12;South America;1;Americas;786559.0;5.305;7435.047;1.6
+7204;332;HTI;Haiti;1;Caribbean;1;Americas;11402533.0;4.8;1653.173;0.7
+7287;340;HND;Honduras;2;Central America;1;Americas;9904608.0;4.652;4541.795;0.7
+7376;348;HUN;Hungary;6;Eastern Europe;3;Europe;9660350.0;18.577;26777.561;7.02
+7475;352;ISL;Iceland;11;Northern Europe;3;Europe;341250.0;14.431;46482.958;2.91
+7638;356;IND;India;15;Southern Asia;2;Asia;1380004385.0;5.989;6426.674;0.53
+7800;360;IDN;Indonesia;13;South-Eastern Asia;2;Asia;273523621.0;5.319;11188.744;1.04
+7956;364;IRN;Iran;15;Southern Asia;2;Asia;83992953.0;5.44;19082.62;1.5
+8119;368;IRQ;Iraq;18;Western Asia;2;Asia;40222503.0;3.186;15663.986;1.4
+8280;372;IRL;Ireland;11;Northern Europe;3;Europe;4937796.0;13.928;67335.293;2.96
+8442;376;ISR;Israel;18;Western Asia;2;Asia;8655541.0;11.733;33132.32;2.99
+8605;380;ITA;Italy;16;Southern Europe;3;Europe;60461828.0;23.021;35220.084;3.18
+8768;388;JAM;Jamaica;1;Caribbean;1;Americas;2961161.0;9.684;8193.571;1.7
+8858;392;JPN;Japan;5;Eastern Asia;2;Asia;126476458.0;27.049;39002.223;13.05
+9021;400;JOR;Jordan;18;Western Asia;2;Asia;10203140.0;3.81;8337.49;1.4
+9111;398;KAZ;Kazakhstan;3;Central Asia;2;Asia;18776707.0;6.991;24055.588;6.7
+9201;404;KEN;Kenya;4;Eastern Africa;0;Africa;53771300.0;2.686;2993.028;1.4
+9298;414;KWT;Kuwait;18;Western Asia;2;Asia;4270563.0;2.345;65530.537;2.0
+9458;417;KGZ;Kyrgyzstan;3;Central Asia;2;Asia;6524191.0;4.489;3393.474;4.5
+9542;418;LAO;Laos;13;South-Eastern Asia;2;Asia;7275556.0;4.029;6397.36;1.5
+9620;428;LVA;Latvia;11;Northern Europe;3;Europe;1886202.0;19.754;25063.846;5.57
+9723;422;LBN;Lebanon;18;Western Asia;2;Asia;6825442.0;8.514;13367.565;2.9
+9882;430;LBR;Liberia;17;Western Africa;0;Africa;5057677.0;3.057;752.788;0.8
+9968;434;LBY;Libya;9;Northern Africa;0;Africa;6871287.0;4.424;17881.509;3.7
+10046;440;LTU;Lithuania;11;Northern Europe;3;Europe;2722291.0;19.002;29524.265;6.56
+10209;442;LUX;Luxembourg;19;Western Europe;3;Europe;625976.0;14.312;94277.965;4.51
+10365;807;MKD;Macedonia;16;Southern Europe;3;Europe;2083380.0;13.26;13111.214;4.28
+10519;450;MDG;Madagascar;4;Eastern Africa;0;Africa;27691019.0;2.929;1416.44;0.2
+10601;454;MWI;Malawi;4;Eastern Africa;0;Africa;19129955.0;2.979;1095.042;1.3
+10670;458;MYS;Malaysia;13;South-Eastern Asia;2;Asia;32365998.0;6.293;26808.164;1.9
+10833;466;MLI;Mali;17;Western Africa;0;Africa;20250834.0;2.519;2014.306;0.1
+10910;470;MLT;Malta;16;Southern Europe;3;Europe;441539.0;19.426;36513.323;4.485
+11006;480;MUS;Mauritius;4;Eastern Africa;0;Africa;1271767.0;10.945;20292.745;3.4
+11089;484;MEX;Mexico;2;Central America;1;Americas;128932753.0;6.857;17336.469;1.38
+11252;498;MDA;Moldova;6;Eastern Europe;3;Europe;4033963.0;10.864;5189.972;5.8
+11345;496;MNG;Mongolia;5;Eastern Asia;2;Asia;3278292.0;4.031;11840.846;7.0
+11432;499;MNE;Montenegro;16;Southern Europe;3;Europe;628062.0;14.762;16409.288;3.861
+11517;504;MAR;Morocco;9;Northern Africa;0;Africa;36910558.0;6.769;7485.013;1.1
+11642;508;MOZ;Mozambique;4;Eastern Africa;0;Africa;31255435.0;3.158;1136.103;0.7
+11722;104;MMR;Myanmar;13;South-Eastern Asia;2;Asia;54409794.0;5.732;5591.597;0.9
+11802;524;NPL;Nepal;15;Southern Asia;2;Asia;29136808.0;5.809;2442.804;0.3
+11965;528;NLD;Netherlands;19;Western Europe;3;Europe;17134873.0;18.779;48472.545;3.32
+12128;554;NZL;New Zealand;0;Australia and New Zealand;4;Oceania;4822233.0;15.322;36085.843;2.61
+12289;558;NIC;Nicaragua;2;Central America;1;Americas;6624554.0;5.445;5321.444;0.9
+12373;562;NER;Niger;17;Western Africa;0;Africa;24206636.0;2.553;926.0;0.3
+12455;578;NOR;Norway;11;Northern Europe;3;Europe;5421242.0;16.821;64800.057;3.6
+12618;512;OMN;Oman;18;Western Asia;2;Asia;5106622.0;2.355;37960.709;1.6
+12775;586;PAK;Pakistan;15;Southern Asia;2;Asia;220892331.0;4.495;5034.708;0.6
+12933;591;PAN;Panama;2;Central America;1;Americas;4314768.0;7.918;22267.037;2.3
+13027;600;PRY;Paraguay;12;South America;1;Americas;7132530.0;6.378;8827.01;1.3
+13123;604;PER;Peru;12;South America;1;Americas;32971846.0;7.151;12236.706;1.6
+13222;608;PHL;Philippines;13;South-Eastern Asia;2;Asia;109581085.0;4.803;7599.188;1.0
+13381;616;POL;Poland;6;Eastern Europe;3;Europe;37846605.0;16.763;27216.445;6.62
+13481;620;PRT;Portugal;16;Southern Europe;3;Europe;10196707.0;21.502;27936.896;3.39
+13583;634;QAT;Qatar;18;Western Asia;2;Asia;2881060.0;1.307;116935.6;1.2
+13742;642;ROU;Romania;6;Eastern Europe;3;Europe;19237682.0;17.85;23313.199;6.892
+13903;643;RUS;Russia;6;Eastern Europe;3;Europe;145934460.0;14.178;24765.954;8.05
+14066;662;LCA;Saint Lucia;1;Caribbean;1;Americas;183629.0;9.721;12951.839;1.3
+14154;670;VCT;Saint Vincent and the Grenadines;1;Caribbean;1;Americas;110947.0;7.724;10727.146;2.6
+14233;678;STP;Sao Tome and Principe;8;Middle Africa;0;Africa;219161.0;2.886;3052.714;2.9
+14296;682;SAU;Saudi Arabia;18;Western Asia;2;Asia;34813867.0;3.295;49045.411;2.7
+14393;688;SRB;Serbia;16;Southern Europe;3;Europe;6804596.0;17.366;14048.881;5.609
+14499;690;SYC;Seychelles;4;Eastern Africa;0;Africa;98340.0;8.606;26382.287;3.6
+14587;702;SGP;Singapore;13;South-Eastern Asia;2;Asia;5850343.0;12.922;85535.383;2.4
+14750;703;SVK;Slovakia;6;Eastern Europe;3;Europe;5459643.0;15.07;30155.152;5.82
+14845;705;SVN;Slovenia;16;Southern Europe;3;Europe;2078932.0;19.062;31400.84;4.5
+14942;710;ZAF;South Africa;14;Southern Africa;0;Africa;59308690.0;5.344;12294.876;2.32
+15067;410;KOR;South Korea;5;Eastern Asia;2;Asia;51269183.0;13.914;35938.374;12.27
+15230;724;ESP;Spain;16;Southern Europe;3;Europe;46754783.0;19.436;34272.36;2.97
+15392;144;LKA;Sri Lanka;15;Southern Asia;2;Asia;21413250.0;10.069;11669.077;3.6
+15546;729;SDN;Sudan;9;Northern Africa;0;Africa;43849269.0;3.548;4466.507;0.8
+15635;740;SUR;Suriname;12;South America;1;Americas;586634.0;6.933;13767.119;3.1
+15718;748;SWZ;Swaziland;14;Southern Africa;0;Africa;1160164.0;3.163;7738.975;2.1
+15806;752;SWE;Sweden;11;Northern Europe;3;Europe;10099270.0;19.985;46949.283;2.22
+15969;756;CHE;Switzerland;19;Western Europe;3;Europe;8654618.0;18.436;57410.166;4.53
+16132;762;TJK;Tajikistan;3;Central Asia;2;Asia;9537642.0;3.466;2896.913;4.8
+16173;834;TZA;Tanzania;4;Eastern Africa;0;Africa;59734213.0;3.108;2683.304;0.7
+16259;764;THA;Thailand;13;South-Eastern Asia;2;Asia;69799978.0;11.373;16277.671;2.1
+16415;626;TLS;Timor;13;South-Eastern Asia;2;Asia;1318442.0;3.556;6570.102;5.9
+16496;768;TGO;Togo;17;Western Africa;0;Africa;8278737.0;2.839;1429.813;0.7
+16585;780;TTO;Trinidad and Tobago;1;Caribbean;1;Americas;1399491.0;10.014;28763.071;3.0
+16675;788;TUN;Tunisia;9;Northern Africa;0;Africa;11818618.0;8.001;10849.297;2.3
+16769;792;TUR;Turkey;18;Western Asia;2;Asia;84339067.0;8.153;25129.341;2.81
+16858;800;UGA;Uganda;4;Eastern Africa;0;Africa;45741000.0;2.168;1697.707;0.5
+16939;804;UKR;Ukraine;6;Eastern Europe;3;Europe;43733759.0;16.462;7894.393;8.8
+17028;784;ARE;United Arab Emirates;18;Western Asia;2;Asia;9890400.0;1.144;67293.483;1.2
+17185;826;GBR;United Kingdom;11;Northern Europe;3;Europe;67886004.0;18.517;39753.244;2.54
+17348;840;USA;United States;10;Northern America;1;Americas;331002647.0;15.413;54225.446;2.77
+17511;858;URY;Uruguay;12;South America;1;Americas;3473727.0;14.655;20551.409;2.8
+17599;860;UZB;Uzbekistan;3;Central Asia;2;Asia;33469199.0;4.469;6253.104;4.0
+17686;862;VEN;Venezuela;12;South America;1;Americas;28435943.0;6.614;16745.022;0.8
+17774;704;VNM;Vietnam;13;South-Eastern Asia;2;Asia;97338583.0;7.15;6171.884;2.6
+17937;887;YEM;Yemen;18;Western Asia;2;Asia;29825968.0;2.922;1479.147;0.7
+17999;894;ZMB;Zambia;4;Eastern Africa;0;Africa;18383956.0;2.48;3689.251;2.0
+18083;716;ZWE;Zimbabwe;4;Eastern Africa;0;Africa;14862927.0;2.822;1899.775;1.7

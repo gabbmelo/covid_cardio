@@ -63,6 +63,7 @@
     <Build Include="Tables\Tbl_social.sql" />
     <Build Include="Tables\Tbl_geo.sql" />
     <Build Include="Tables\Tbl_time.sql" />
+    <Build Include="Tables\Tbl_elder_pop.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CriacaoDataLake.refactorlog" />

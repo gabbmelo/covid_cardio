@@ -1,0 +1,5 @@
+;gdp_level_natural_id;gdp_level_pk;gdp_level_desc
+0;LOW;1;low income
+153;MLO;2;middle-low income
+405;MHI;3;middle-high income
+738;HIG;4;high income

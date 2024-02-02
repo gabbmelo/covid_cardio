@@ -1,0 +1,19 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       Nenhum
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Criar
+       [dbo].[Table1] (Tabela)
+       [dbo].[Table2] (Tabela)
+       [dbo].[Tbl_economic] (Tabela)
+       [dbo].[Tbl_elder_pop] (Tabela)
+       [dbo].[Tbl_geo] (Tabela)
+
+** Ações de suporte

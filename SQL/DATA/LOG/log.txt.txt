@@ -1,0 +1,2 @@
+2024-02-07 18:03:50.037000000: (SUCCESS) Data Lake loading process startup 
+2024-02-07 18:03:54.773000000: (SUCCESS) Data Lake loading process end

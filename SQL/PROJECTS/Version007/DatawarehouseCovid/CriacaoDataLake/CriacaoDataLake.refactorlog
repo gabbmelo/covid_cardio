@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a58d4cd2-eb09-4db5-b092-451b9a5d98c8" ChangeDateTime="01/04/2024 22:15:59">
+    <Property Name="ElementName" Value="[dbo].[Tbl_economic].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tbl_economic]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="level_gedp_per_capita" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7a8a1894-91de-48a1-a0e9-a5651609f170" ChangeDateTime="01/04/2024 22:18:36">
+    <Property Name="ElementName" Value="[dbo].[Tbl_economic].[level_gedp_per_capita]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tbl_economic]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="level_gdp_per_capita" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9a94bd2-3fa3-4a8b-a61d-4b2bf5fee3f3" ChangeDateTime="01/04/2024 22:22:58">
+    <Property Name="ElementName" Value="[dbo].[Tbl_economic].[atr_gdp_per_capita]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tbl_economic]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="desc_level_gdp_per_capita" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6cbd5047-00b8-426f-8f02-6a601d5bd9a5" ChangeDateTime="02/02/2024 22:29:04">
+    <Property Name="ElementName" Value="[dbo].[Table2].[day_code]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="date_code_" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dce5a388-de9d-4b18-9da2-33961232564d" ChangeDateTime="02/02/2024 22:29:10">
+    <Property Name="ElementName" Value="[dbo].[Table2].[date_code]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="date_datetime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f27bc980-82ef-4870-b648-c65eb8620aad" ChangeDateTime="02/02/2024 22:29:17">
+    <Property Name="ElementName" Value="[dbo].[Table2].[date_code_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="date_code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87b5bc73-025b-4e6a-af88-a7e7f0e57cff" ChangeDateTime="02/07/2024 20:22:05">
+    <Property Name="ElementName" Value="[dbo].[tbl_log].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_log]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="date" />
+  </Operation>
+</Operations>

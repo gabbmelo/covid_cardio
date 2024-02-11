@@ -1,0 +1,46 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       [dbo].[Tbl_geo]
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Ignorando a coluna [dbo].[Tbl_economic].[atr_population]; poderá ocorrer perda de dados.
+       Ignorando a coluna [dbo].[Tbl_economic].[gdp_per_capita]; poderá ocorrer perda de dados.
+       A coluna [dbo].[Tbl_geo].[atr_65_plus] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor
+         padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema,
+         você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de
+         padrões inteligentes como uma opção de implantação.
+       A coluna [dbo].[Tbl_geo].[atr_hosp_beds] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor
+         padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema,
+         você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de
+         padrões inteligentes como uma opção de implantação.
+       A coluna [dbo].[Tbl_geo].[atr_population] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor
+         padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema,
+         você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de
+         padrões inteligentes como uma opção de implantação.
+       A coluna [dbo].[Tbl_geo].[gdp_per_capita] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor
+         padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema,
+         você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de
+         padrões inteligentes como uma opção de implantação.
+
+** Ações do usuário
+     Alterar
+       [dbo].[Tbl_economic] (Tabela)
+     Recriar tabela
+       [dbo].[Tbl_geo] (Tabela)
+     Criar
+       [dbo].[Table1] (Tabela)
+       [dbo].[Table2] (Tabela)
+       [dbo].[Tbl_elder_pop] (Tabela)
+
+** Ações de suporte
+
+Ignorando a coluna [dbo].[Tbl_economic].[atr_population]; poderá ocorrer perda de dados.
+Ignorando a coluna [dbo].[Tbl_economic].[gdp_per_capita]; poderá ocorrer perda de dados.
+A coluna [dbo].[Tbl_geo].[atr_65_plus] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+A coluna [dbo].[Tbl_geo].[atr_hosp_beds] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+A coluna [dbo].[Tbl_geo].[atr_population] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+A coluna [dbo].[Tbl_geo].[gdp_per_capita] na tabela [dbo].[Tbl_geo] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+
